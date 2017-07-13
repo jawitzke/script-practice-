@@ -1,0 +1,15 @@
+#!/bin/bash
+YOUSAID=$1
+echo""
+echo "You are in this directory: `pwd`"
+echo ""
+echo "The files in this directory are `ls -lah`"
+echo ""
+echo "The date is `date --iso-8601`"
+echo ""
+echo "You are `whoami` on `hostname` (`hostname -i`)"
+echo ""
+echo "These other users are online"
+echo "`w`"
+echo ""
+echo "You just said: $YOUSAID"
